@@ -20,6 +20,6 @@ public class RequestTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("котик"));
+                .body("data", equalTo("кот"));
     }
 }
